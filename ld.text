@@ -1,0 +1,264 @@
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "Electrician",
+	"name": "Aléctrico: Electricista a Domicilio",
+	"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "",
+		"addressLocality": "Providencia",
+		"addressRegion": "RM",
+		"postalCode": "7500000"
+	},
+	"image": "https://alectrico.cl/assets/images/wp-20160517-8-1456x2592.jpg",
+	"email": "go@alectrico.cl",
+	"telePhone": "+56962000921",
+	"url": "http://alectrico.cl",
+        "sameAs": "https://alectrico.cl,           https://alectrico.cl/providencia,
+https://alectrico.cl/santiago,
+https://alectrico.cl/ñuñoa",
+        "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.alectrico.cl/agendar",
+      "inLanguage": "es-CL",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform",
+        "http://schema.org/IOSPlatform",
+        "http://schema.org/AndroidPlatform"
+      ]
+    },
+    "deliveryMethod": [      "http://purl.org/goodrelations/v1#DeliveryModePickUp",      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+     },
+	"paymentAccepted": [ "cash", "paypal" ],
+	"openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 07:00-22:00",
+	"openingHoursSpecification": [ {
+		"@type": "OpeningHoursSpecification",
+		"dayOfWeek": [
+			"Monday",
+			"Tuesday",
+			"Wednesday",
+			"Thursday",
+			"Friday",
+			"Saturday",
+			"Sunday"
+		],
+		"opens": "07:00",
+		"closes": "22:00"
+	} ],
+	"geo": {
+		"@type": "GeoCoordinates",
+		"latitude": "-33.444746",
+		"longitude": ""
+	},
+	"priceRange":"$ 35.000 - $40.000",
+ "aggregateRating":
+    {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "14",
+        "reviewCount": "12"
+    }
+}
+</script>
+
+
+
+<script id='producto_review_jose_campo' type='application/ld+json'>
+{
+"@context": "https://schema.org/",
+"@type": "Review",
+"itemReviewed": {
+"@type": "Electrician",
+"image": "http://alectrico.cl/assets/images/wp-20160517-8-1456x2592.jpg",
+"priceRange": "25.000-40.000",
+"name": "Aléctrico",
+"telephone": "96200921",
+"address" :{
+"@type": "PostalAddress",
+"addressLocality": "Providencia",
+"addressRegion": "RM",
+"postalCode": "7500000",
+"addressCountry": "CL" }},
+"reviewRating": {
+"@type": "Rating",
+"ratingValue": "5"},
+"name": "un excelente trabajo",
+"author": {
+"@type": "Person",
+"name": "Sergio Hernández" },
+"reviewBody": "un excelente trabajo, me cambio el tablero de mi dpto, el cual me causaba corto por no tener diferencial muy buen trabajo confiable",
+"publisher": {
+"@type": "Organization",
+"name": "Google Local Business",
+"url": "https://goo.gl/maps/Z7GC9FvZ4JuNFgLq5"}
+}
+</script>
+
+
+
+<script id='producto_review_maria_gamin' type='application/ld+json'>
+{
+"@context": "https://schema.org/",
+"@type": "Review",
+"itemReviewed": {
+"@type": "Electrician",
+"image": "http://alectrico.cl/assets/images/wp-20160517-8-1456x2592.jpg",
+"priceRange": "25.000-40.000",
+"name": "Aléctrico",
+"telephone": "96200921",
+"address" :{
+"@type": "PostalAddress",
+"addressLocality": "Providencia",
+"addressRegion": "RM",
+"postalCode": "7500000",
+"addressCountry": "CL" }},
+"reviewRating": {
+"@type": "Rating",
+"ratingValue": "5"},
+"name": "Excelente profesional, muy atento y amable.",
+"author": {
+"@type": "Person",
+"name": "Sergio Hernández" },
+"reviewBody": "Excelente profesional, muy atento y amable. Quedó todo en perfecto estado y funcionando. 100% recomendado",
+"publisher": {
+"@type": "Organization",
+"name": "Google Local Business",
+"url": "https://goo.gl/maps/gerWy3YnHYyp3AL17"}
+}
+</script>
+
+
+
+<script id='producto_review_sergio_quilodran' type='application/ld+json'>
+{
+"@context": "https://schema.org/",
+"@type": "Review",
+"itemReviewed": {
+"@type": "Electrician",
+"image": "http://alectrico.cl/assets/images/wp-20160517-8-1456x2592.jpg",
+"priceRange": "25.000-40.000",
+"name": "Aléctrico",
+"telephone": "96200921",
+"address" :{
+"@type": "PostalAddress",
+"addressLocality": "Providencia",
+"addressRegion": "RM",
+"postalCode": "7500000",
+"addressCountry": "CL" }},
+"reviewRating": {
+"@type": "Rating",
+"ratingValue": "5"},
+"name": "Excelente profesional muy confiable.",
+"author": {
+"@type": "Person",
+"name": "Sergio Hernández" },
+"reviewBody": "Excelente profesional muy confiable, el trabajo lo realizo en el tiempo acordado, ademas entregó un completo informe, muy recomendable.",
+"publisher": {
+"@type": "Organization",
+"name": "Google Local Business",
+"url": "https://goo.gl/maps/hQRK3n1pXK58Jcf18"}
+}
+</script>
+
+
+
+<script id='producto_review_belen_pueba' type='application/ld+json'>
+{
+"@context": "https://schema.org/",
+"@type": "Review",
+"itemReviewed": {
+"@type": "Electrician",
+"image": "http://alectrico.cl/assets/images/wp-20160517-8-1456x2592.jpg",
+"priceRange": "25.000-40.000",
+"name": "Aléctrico",
+"telephone": "96200921",
+"address" :{
+"@type": "PostalAddress",
+"addressLocality": "Providencia",
+"addressRegion": "RM",
+"postalCode": "7500000",
+"addressCountry": "CL" }},
+"reviewRating": {
+"@type": "Rating",
+"ratingValue": "5"},
+"name": "Alexander es un excelente profesional.",
+"author": {
+"@type": "Person",
+"name": "Sergio Hernández" },
+"reviewBody": "Alexander es un excelente profesional, altamente confiable. Nos ayudó a solventar un problema de emergencia en nuestro departamento, logrando detectar la causa raíz. Además nos explicó las medidas de seguridad y prevención que deben tomarse con los sistemas eléctricos. 1000% recomendado!!!. Gracias Alexander.",
+"publisher": {
+"@type": "Organization",
+"name": "Google Local Business",
+"url": "https://www.google.com/maps/contrib/107333398694660156508/place/ChIJx3fB79TDYpYRchY88dfnkT8/@-33.436726,-70.6175145,14z/data=!4m6!1m5!8m4!1e1!2s107333398694660156508!3m1!1e1"}
+}
+</script>
+
+
+
+<script id='producto_review_sergio_hernandez' type='application/ld+json'>
+{
+"@context": "https://schema.org/",
+"@type": "Review",
+"itemReviewed": {
+"@type": "Electrician",
+"image": "http://alectrico.cl/assets/images/wp-20160517-8-1456x2592.jpg",
+"priceRange": "25.000-40.000",
+"name": "Aléctrico",
+"telephone": "96200921",
+"address" :{
+"@type": "PostalAddress",
+"addressLocality": "Providencia",
+"addressRegion": "RM",
+"postalCode": "7500000",
+"addressCountry": "CL" }},
+"reviewRating": {
+"@type": "Rating",
+"ratingValue": "5"},
+"name": "Alexander es un excelente profesional.",
+"author": {
+"@type": "Person",
+"name": "Sergio Hernández" },
+"reviewBody": "Alexander es un excelente profesional, altamente confiable. Nos ayudó a solventar un problema de emergencia en nuestro departamento, logrando detectar la causa raíz. Además nos explicó las medidas de seguridad y prevención que deben tomarse con los sistemas eléctricos. 1000% recomendado!!!. Gracias Alexander.",
+"publisher": {
+"@type": "Organization",
+"name": "Google Local Business",
+"url": "https://www.google.com/maps/contrib/107333398694660156508/place/ChIJx3fB79TDYpYRchY88dfnkT8/@-33.436726,-70.6175145,14z/data=!4m6!1m5!8m4!1e1!2s107333398694660156508!3m1!1e1"}
+}
+</script>
+
+
+
+
+<script id='producto_review_Mariela' type='application/ld+json'>
+{
+"@context": "https://schema.org/",
+"@type": "Review",
+"itemReviewed": {
+"@type": "Electrician",
+"image": "http://alectrico.cl/assets/images/wp-20160517-8-1456x2592.jpg",
+"priceRange": "25.000-40.000",
+"name": "Aléctrico",
+"telephone": "96200921",
+"address" :{
+"@type": "PostalAddress",
+"addressLocality": "Providencia",
+"addressRegion": "RM",
+"postalCode": "7500000",
+"addressCountry": "CL" }},
+"reviewRating": {
+"@type": "Rating",
+"ratingValue": "5"},
+"name": "Profesional serio y responsable.",
+"author": {
+"@type": "Person",
+"name": "Mariela González" },
+"reviewBody": "Profesional serio y responsable. Nos ayudo a resolver un problema en nuestro hogar de manera impecable. Altamente recomendado!",
+"publisher": {
+"@type": "Organization",
+"name": "Google Local Business",
+"url": "https://www.google.com/maps/contrib/108700088033960655257/reviews/@-2.519222,-75.9229184,4z/data=!3m1!4b1!4m3!8m2!3m1!1e1" }
+}
+</script>
