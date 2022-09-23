@@ -1,0 +1,48 @@
+{
+    "title": "Electricista a Domicilio: Providencia.",
+    "name": "Sitio CL Temuco Landing",
+    "version": "1.0.0",
+    "scripts": {
+        "start": " node scripts/start.js"
+    },
+    "description": "Página Landing para Alectrico.",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template",
+        "admin",
+        "app",
+        "dashboard"
+    ],
+    "homepage": "https://alectrico.cl",
+    "bugs": {
+        "url": "https://github.com/BlackrockDigital/startbootstrap-sb-admin/issues",
+        "email": "feedback@startbootstrap.com"
+    },
+    "license": "MIT",
+    "author": "Start Bootstrap",
+    "contributors": [
+        "Alexander Espinosa"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BlackrockDigital/startbootstrap-sb-admin.git"
+    },
+    "dependencies": {
+        "bootstrap": "4.4.1"
+    },
+    "devDependencies": {
+        "autoprefixer": "9.7.4",
+        "browser-sync": "2.26.7",
+        "chokidar": "3.3.1",
+        "concurrently": "5.0.2",
+        "postcss": "7.0.26",
+        "prettier": "1.19.1",
+        "pug": "2.0.4",
+        "sass": "1.25.0",
+        "shelljs": "0.8.3"
+    }
+}
