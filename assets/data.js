@@ -1,4 +1,4 @@
-fetch('https://www.alectrico.cl/servicios/designer/cargas.json')
+fetch('https://www.alectrico.cl/listas/designer/cargas.json')
   .then( function (response) {
      return response.json();
   })
