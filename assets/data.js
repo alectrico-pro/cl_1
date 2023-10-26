@@ -30,9 +30,12 @@ function replaceFonos(data) {
   whatsapp.href=`tel: ${data.servicios[0].precio}`;
   whatsapp.innerHTML= data.servicios[0].precio;
 
-  const whatsapp = document.getElementById("llame-ahora");
-  whatsapp.href=`tel: ${data.servicios[0].precio}`;
-  whatsapp.innerHTML= data.servicios[0].precio;
+  const llameAhora = document.getElementById("llame-ahora");
+  llameAhora.href=`tel: ${data.servicios[0].precio}`;
+  llameAhora.innerHTML= data.servicios[0].precio;
+
+	//"<span class="socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn"></span>LLAME AHORA<br>932-000-849<br></a></div>
+
 }
        
 
