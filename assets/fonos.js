@@ -29,6 +29,11 @@ function appendData(data) {
   var whatsapp = document.getElementsByTagName("a");
   whatsapp.href="tel: +5698764321";
 
+        const div1 = document.getElementById("div1");
+        const div1Paras = div1.getElementsByTagName("a");
+        const num = div1Paras.length;
+        alert(`There are ${num} paragraph in #div1`);
+
   var tbody = document.getElementsByTagName("tbody");
   tbody[0].innerHTML='';
 
