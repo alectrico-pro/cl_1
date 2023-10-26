@@ -29,7 +29,10 @@ function replaceFonos(data) {
   const whatsapp = document.getElementById("boton-whatsapp");
   whatsapp.href=`tel: ${data.servicios[0].precio}`;
   whatsapp.innerHTML= data.servicios[0].precio;
-  alert(`Este es el contenido de #boton-whatsapp.href ${whatsapp.href}`);
+
+  const whatsapp = document.getElementById("llame-ahora");
+  whatsapp.href=`tel: ${data.servicios[0].precio}`;
+  whatsapp.innerHTML= data.servicios[0].precio;
 }
        
 
