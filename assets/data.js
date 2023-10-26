@@ -26,13 +26,14 @@ function replaceFonos(data) {
   //en cloud de google
   //no usar el signo + en la escritura del número telefónico
   const whatsapp = document.getElementById("boton-whatsapp");
-  whatsapp.href=`https://wa.me/${data.fonos[1].numero}`;
+  whatsapp.href=`https://api.whatsapp.com/send?phone=${data.fonos[1].numero}&text=Hola alec, necesito resolver un problema eléctrico en Providencia`
+  //whatsapp.href=`https://wa.me/${data.fonos[1].numero}`;
   //whatsapp.href=`tel: ${data.servicios[0].numero}`;
   whatsapp.innerHTML= data.fonos[1].numero;
 
   const llameAhora = document.getElementById("llame-ahora");
   llameAhora.href=`https://wa.me/${data.fonos[0].numero}`;
-  llameAhora.href=`https://api.whatsapp.com/send?phone=${data.fonos[0].numero}&text=Holalec, necesito resolver un problema eléctrico en Providencia`
+  llameAhora.href=`https://api.whatsapp.com/send?phone=${data.fonos[0].numero}&text=Hola alec, necesito resolver un problema eléctrico en Providencia`
   //nst span = llameAhora.createElement("span");
   //an.class = "socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn"
   //an.innerHTML = "span" ;
