@@ -26,7 +26,7 @@ function replaceFonos(data) {
   //en cloud de google
   //no usar el signo + en la escritura del número telefónico
   const whatsapp = document.getElementById("boton-whatsapp");
-  whatsapp.href=`https://api.whatsapp.com/send?phone=${data.fonos.cliente..numero}&text=Hola alec, necesito resolver un problema eléctrico en Providencia`
+  whatsapp.href=`https://api.whatsapp.com/send?phone=${data.fonos.cliente.numero}&text=Hola alec, necesito resolver un problema eléctrico en Providencia`
   //whatsapp.href=`https://wa.me/${data.fonos[1].numero}`;
   //whatsapp.href=`tel: ${data.servicios[0].numero}`;
   whatsapp.innerHTML= data.fonos.cliente.html;
