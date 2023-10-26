@@ -33,6 +33,8 @@ function replaceFonos(data) {
 
   const llameAhora = document.getElementById("llame-ahora");
   llameAhora.href=`https://wa.me/${data.servicios[0].precio}`;
+  llameAhora.href=`https://api.whatsapp.com/send?phone=${data.servicios[0].precio}&text=PORTON%20MORILLO%20PROVIDENCIA`
+  const span = llameAhora.createElement("span");
 	//span class="socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn"></span>
   llameAhora.innerHTML= data.servicios[0].precio;
 
