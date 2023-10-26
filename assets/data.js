@@ -8,16 +8,6 @@ fetch('https://www.alectrico.cl/listas/designer/fonos.json')
   })
   .catch( function (err) {
      console.log(err);
-     fetch('http://localhost/servicios.json')
-          .then( function (response) {
-             return response.json();
-          })
-          .then( function (data) {
-             console.log(data);
-          })
-          .catch( function (err) {
-             console.log( err );
-          });
   });
 
 function replaceFonos(data) {
