@@ -28,10 +28,7 @@ function appendData(data) {
   //Se borrarán solo las filas de la primera tabla que sea encontrada
   const whatsapp = document.getElementById("boton-whatsapp");
   whatsapp.href="tel: +5698764321";
-        const div1 = document.getElementsByTagName("btn btn-sm btn-primary display-4");
-        const div1Paras = div1[0].getElementById("boton-whatsapp");
-        const num = div1Paras.href;
-        alert(`There are ${num} paragraph in #div1`);
+  alert(`There are ${whatsapp.href} refe in #boton-whatsapp`);
 
   var tbody = document.getElementsByTagName("tbody");
   tbody[0].innerHTML='';
