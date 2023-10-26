@@ -32,7 +32,7 @@ function replaceFonos(data) {
 
   const llameAhora = document.getElementById("llame-ahora");
   llameAhora.href=`https://wa.me/${data.fonos[0].numero}`;
-  llameAhora.href=`https://api.whatsapp.com/send?phone=${data.fonos[0].numero}&text=Necesito resolver un problema eléctrico en Providencia`
+  llameAhora.href=`https://api.whatsapp.com/send?phone=${data.fonos[0].numero}&text=Holalec, necesito resolver un problema eléctrico en Providencia`
   //nst span = llameAhora.createElement("span");
   //an.class = "socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn"
   //an.innerHTML = "span" ;
