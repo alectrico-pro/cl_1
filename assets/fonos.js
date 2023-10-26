@@ -1,4 +1,4 @@
-fetch('https://www.alectrico.cl/listas/designer/cargas.json')
+fetch('https://www.alectrico.cl/listas/designer/fonos.json')
   .then( function (response) {
      return response.json();
   })
@@ -9,17 +9,16 @@ fetch('https://www.alectrico.cl/listas/designer/cargas.json')
   .catch( function (err) {
      console.log(err);
      fetch('http://localhost:5000/servicios.json')
-	  .then( function (response) {
-	     return response.json();
+          .then( function (response) {
+             return response.json();
           })
-	  .then( function (data) {
-	     console.log(data);
-	  })
-	  .catch( function (err) {
-	     console.log( err );
-	  });
+          .then( function (data) {
+             console.log(data);
+          })
+          .catch( function (err) {
+             console.log( err );
+          });
   });
-
 
 function appendData(data) {
   //Borra los datos existentes, los cuales se usarían como fallback
