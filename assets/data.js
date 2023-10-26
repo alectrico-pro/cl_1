@@ -21,23 +21,22 @@ fetch('https://www.alectrico.cl/listas/designer/fonos.json')
   });
 
 function replaceFonos(data) {
-  //Borra los datos existentes, los cuales se usarían como fallback
-  //en caso necesario
-  //Los datos que queremos borrar es el contenido de la lista
-  //de precios que se ubican como la primera tabla
-  //Se borrarán solo las filas de la primera tabla que sea encontrada
+  //data es un json de llave servicios con llavez publico Y numero
+  //Está definido como una función llamada fonos
+  //en cloud de google
+  //no usar el signo + en la escritura del número telefónico
   const whatsapp = document.getElementById("boton-whatsapp");
-  whatsapp.href=`https://wa.me/${data.servicios[0].precio}`;
-  //whatsapp.href=`tel: ${data.servicios[0].precio}`;
-  whatsapp.innerHTML= data.servicios[0].precio;
+  whatsapp.href=`https://wa.me/${data.servicios[0].numero}`;
+  //whatsapp.href=`tel: ${data.servicios[0].numero}`;
+  whatsapp.innerHTML= data.servicios[0].numero;
 
   const llameAhora = document.getElementById("llame-ahora");
-  llameAhora.href=`https://wa.me/${data.servicios[0].precio}`;
-  llameAhora.href=`https://api.whatsapp.com/send?phone=${data.servicios[0].precio}&text=Necesito resolver un problema eléctrico en Providencia`
+  llameAhora.href=`https://wa.me/${data.servicios[0].numero}`;
+  llameAhora.href=`https://api.whatsapp.com/send?phone=${data.servicios[0].numero}&text=Necesito resolver un problema eléctrico en Providencia`
   const span = llameAhora.createElement("span");
-  span.class = "socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn";
+  span.class = "socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn"
   span.innerHTML = "span" ;
-  llameAhora.innerHTML= data.servicios[0].precio;
+  llameAhora.innerHTML= data.servicios[0].numero;
 
 	//"<span class="socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn"></span>LLAME AHORA<br>932-000-849<br></a></div>
 
