@@ -26,6 +26,10 @@ function appendData(data) {
   //Los datos que queremos borrar es el contenido de la lista
   //de precios que se ubican como la primera tabla
   //Se borrarán solo las filas de la primera tabla que sea encontrada
+  var whatsapp = document.getElementsByTagName("boton-whatsapp");
+  whatsapp.innerHTML='';
+  whatsapp.href="tel: +5698764321"
+
   var tbody = document.getElementsByTagName("tbody");
   tbody[0].innerHTML='';
 
