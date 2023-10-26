@@ -28,7 +28,7 @@ function appendData(data) {
   //Se borrarán solo las filas de la primera tabla que sea encontrada
   var whatsapp = document.getElementsByTagName("boton-whatsapp");
   whatsapp.innerHTML='';
-  whatsapp.href="tel: +5698764321"
+  whatsapp.href="tel: +5698764321";
 
   var tbody = document.getElementsByTagName("tbody");
   tbody[0].innerHTML='';
