@@ -8,7 +8,7 @@ fetch('https://www.alectrico.cl/listas/designer/fonos.json')
   })
   .catch( function (err) {
      console.log(err);
-     fetch('http://localhost:5000/servicios.json')
+     fetch('http://localhost/servicios.json')
           .then( function (response) {
              return response.json();
           })
@@ -43,7 +43,7 @@ fetch('https://www.alectrico.cl/listas/designer/cargas.json')
   })
   .catch( function (err) {
      console.log(err);
-     fetch('http://localhost:5000/servicios.json')
+     fetch('http://localhost/servicios.json')
 	  .then( function (response) {
 	     return response.json();
           })
