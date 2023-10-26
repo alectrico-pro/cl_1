@@ -4,7 +4,7 @@ fetch('https://www.alectrico.cl/listas/designer/fonos.json')
   })
   .then( function (data){
      console.log( data );
-     appendData(data);
+     replaceFonos(data);
   })
   .catch( function (err) {
      console.log(err);
@@ -20,7 +20,7 @@ fetch('https://www.alectrico.cl/listas/designer/fonos.json')
           });
   });
 
-function appendData(data) {
+function replaceFonos(data) {
   //Borra los datos existentes, los cuales se usarían como fallback
   //en caso necesario
   //Los datos que queremos borrar es el contenido de la lista
@@ -28,27 +28,6 @@ function appendData(data) {
   //Se borrarán solo las filas de la primera tabla que sea encontrada
   const whatsapp = document.getElementById("boton-whatsapp");
   whatsapp.href=`tel: ${data.servicios[0].precio}`;
-  
+  whatsapp.innerHTML= data.servicios[0].precio;
   alert(`Este es el contenido de #boton-whatsapp.href ${whatsapp.href}`);
-
-  var tbody = document.getElementsByTagName("tbody");
-  tbody[0].innerHTML='';
-
-  //Ahora es necesario agregar datos desde el servidor
-  var myData = tbody[0];
-
-  for (var i = 0; i < data.servicios.length; i++) {
-    var tr = document.createElement("tr");
-    var nombre = document.createElement("td");
-          
-    nombre.innerHTML = data.servicios[i].nombre;
-    nombre.class = "body-item mbr-fonts-style display-7"
-    tr.appendChild(nombre);
-
-    var precio = document.createElement("td");
-    precio.class = "body-item mbr-fonts-style display-7"
-    precio.innerHTML = '$' +  data.servicios[i].precio;
-    tr.appendChild(precio);
-    myData.appendChild(tr);
-  }
 }
