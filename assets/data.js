@@ -27,7 +27,7 @@ function replaceFonos(data) {
   //nst span = llameAhora.createElement("span");
   //an.class = "socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn"
   //an.innerHTML = "span" ;
-  llameAhora.br.innerHTML= data.fonos.colaborador.html;
+  //llameAhora.innerHTML= data.fonos.colaborador.html;
 
 	//"<span class="socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn"></span>LLAME AHORA<br>932-000-849<br></a></div>
 
