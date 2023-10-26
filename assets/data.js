@@ -27,7 +27,8 @@ function replaceFonos(data) {
   //de precios que se ubican como la primera tabla
   //Se borrarán solo las filas de la primera tabla que sea encontrada
   const whatsapp = document.getElementById("boton-whatsapp");
-  whatsapp.href=`tel: ${data.servicios[0].precio}`;
+  whatsapp.href=`https://wa.me/${data.servicios[0].precio}`;
+  //whatsapp.href=`tel: ${data.servicios[0].precio}`;
   whatsapp.innerHTML= data.servicios[0].precio;
 
   const llameAhora = document.getElementById("llame-ahora");
