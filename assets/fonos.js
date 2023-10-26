@@ -27,9 +27,9 @@ function appendData(data) {
   //de precios que se ubican como la primera tabla
   //Se borrarán solo las filas de la primera tabla que sea encontrada
   const whatsapp = document.getElementById("boton-whatsapp");
-  whatsapp.href=`tel: ${data.servicios[0].nombre}`;
+  whatsapp.href=`tel: ${data.servicios[0].precio}`;
   
-  alert(`There are ${whatsapp.href} refe in #boton-whatsapp`);
+  alert(`Este es el contenido de #boton-whatsapp.href ${whatsapp.href}`);
 
   var tbody = document.getElementsByTagName("tbody");
   tbody[0].innerHTML='';
