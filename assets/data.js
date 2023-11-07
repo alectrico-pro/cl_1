@@ -15,7 +15,7 @@ fetch('https://www.alectrico.cl/listas/designer/fonos.json')
 //reemplaza el contenido del botón agendar
 function replaceAgendar(data) {
   const agendar = document.getElementById("agendar");
-  agendar.href=`https://www.alectrico.cl/agendar`;
+  agendar.href=`https://www.alectricos.cl/agendar`;
 }
 
 //Reemplaza los fonos que aparecen en un par de botones
