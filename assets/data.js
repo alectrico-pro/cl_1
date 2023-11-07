@@ -5,11 +5,20 @@ fetch('https://www.alectrico.cl/listas/designer/fonos.json')
   .then( function (data){
      console.log( data );
      replaceFonos(data);
+     replaceAgendar(data);
   })
   .catch( function (err) {
      console.log(err);
   });
 
+
+//reemplaza el contenido del botón agendar
+function replaceAgendar(data) {
+  const agendar = document.getElementById("agendar");
+  agendar.href=`https://www.alectrico.cl/agendar`;
+}
+
+//Reemplaza los fonos que aparecen en un par de botones
 function replaceFonos(data) {
   //data es un json de llave servicios con llavez publico Y numero
   //Está definido como una función llamada fonos
