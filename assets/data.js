@@ -4,8 +4,8 @@ fetch('https://www.alectrico.cl/listas/designer/fonos.json')
   })
   .then( function (data){
      console.log( data );
-     replaceFonos(data);
      replaceAgendar(data);
+     replaceFonos(data);
   })
   .catch( function (err) {
      console.log(err);
