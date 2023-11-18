@@ -1,4 +1,4 @@
-replaceAgendar(data);
+replaceAgendar();
 
 
 fetch('https://www.alectrico.cl/listas/designer/fonos.json')
@@ -15,7 +15,7 @@ fetch('https://www.alectrico.cl/listas/designer/fonos.json')
 
 
 //reemplaza el contenido del botón agendar
-function replaceAgendar(data) {
+function replaceAgendar() {
   const agendar = document.getElementById("agendar");
   agendar.href=`https://www.alectricos.cl/agendar`;
 }
