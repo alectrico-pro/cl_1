@@ -51,6 +51,8 @@ fetch('https://www.alectrico.cl/listas/designer/cargas.json')
   .then( function (data){
      console.log( data );
      appendData(data);
+     replaceAgendar();
+
   })
   .catch( function (err) {
      console.log(err);
