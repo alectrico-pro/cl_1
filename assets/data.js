@@ -43,8 +43,7 @@ function replaceFonos(data) {
 
 }
        
-
-fetch('https://www.alectrico.cl/listas/designer/cargas.json')
+fetch('https://www.alectrico.cl/listas/designer/servicios.json')
   .then( function (response) {
      return response.json();
   })
