@@ -18,6 +18,8 @@ fetch('https://www.alectrico.cl/listas/designer/fonos.json')
 function replaceAgendar() {
   const agendar = document.getElementById("agendar");
   agendar.href=`https://www.alectricos.cl/agendar`;
+  const agendarVisita = document.getElementById("agendar_visita");
+  agendarVisita.href=`https://www.alectricos.cl/agendar`;
 }
 
 //Reemplaza los fonos que aparecen en un par de botones
