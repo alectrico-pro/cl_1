@@ -86,7 +86,7 @@ function appendData(data) {
     var tr = document.createElement("tr");
     var nombre = document.createElement("td");
           
-    nombre.innerHTML = data.servicios[i].title;
+    nombre.innerHTML = data.servicios[i].nombre;
     nombre.class = "body-item mbr-fonts-style display-7"
     tr.appendChild(nombre);
 
