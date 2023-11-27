@@ -92,7 +92,7 @@ function appendData(data) {
 
     var precio = document.createElement("td");
     precio.class = "body-item mbr-fonts-style display-7"
-    precio.innerHTML = '$' +  data.servicios[i].precio;
+    precio.innerHTML = data.servicios[i].precio;
     tr.appendChild(precio);
     myData.appendChild(tr);
   }
