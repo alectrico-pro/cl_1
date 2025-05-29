@@ -19,10 +19,10 @@ function replaceAgendar() {
 	//No está funcionando la página en www.alectrico.cl así que no escribo nada aquí
  const agendar = document.getElementById("agendar");
 //agendar.remove();
-  agendar.href=`https://www.alectrico.cl/agendar`;
+  agendar.href=`https://www.alectrico.cl/reportes`;
   const agendarVisita = document.getElementById("agendar_visita");
 //  agendarVisita.remove();
-  agendarVisita.href=`https://www.alectrico.cl/agendar`;
+  agendarVisita.href=`https://www.alectrico.cl/reportes`;
 }
 
 //Reemplaza los fonos que aparecen en un par de botones
