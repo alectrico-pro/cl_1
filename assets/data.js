@@ -1,4 +1,7 @@
-fetch('https://www.alectrico.cl/listas/designer/fonos.json')
+
+//fetch('https://www.alectrico.cl/listas/designer/fonos.json')
+
+fetch('https://go.alectrico.cl/fonos.json')
   .then( function (response) {
      return response.json();
   })
