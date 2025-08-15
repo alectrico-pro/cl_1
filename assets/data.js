@@ -21,10 +21,10 @@ fetch('https://www.alectrico.cl/fonos.json')
 function replaceAgendar() {
 	//No está funcionando la página en www.alectrico.cl así que no escribo nada aquí
  const agendar = document.getElementById("agendar");
-  agendar.remove();
-  agendar.href=`https://www.alectrico.cl/reportes`;
+  //agendar.remove();
+  agendar.href=`https://www.alectrico.cl/agendar`;
   const agendarVisita = document.getElementById("agendar_visita");
-  agendarVisita.remove();
+  ///agendarVisita.remove();
   agendarVisita.href=`https://www.alectrico.cl/agendar`;
 }
 
