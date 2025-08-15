@@ -25,7 +25,7 @@ function replaceAgendar() {
   agendar.href=`https://www.alectrico.cl/reportes`;
   const agendarVisita = document.getElementById("agendar_visita");
   agendarVisita.remove();
-  //agendarVisita.href=`https://www.alectrico.cl/reportes`;
+  agendarVisita.href=`https://www.alectrico.cl/agendar`;
 }
 
 //Reemplaza los fonos que aparecen en un par de botones
